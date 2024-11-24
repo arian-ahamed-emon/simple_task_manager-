@@ -89,7 +89,7 @@ class _ForgotPasswordEmailScreenState extends State<ForgotPasswordEmailScreen> {
         children: [
           TextSpan(
             text: "Sign in",
-            style: TextStyle(color: AppColors.themecolor),
+            style: const TextStyle(color: AppColors.themecolor),
             recognizer: TapGestureRecognizer()
               ..onTap = () {
                 Navigator.pop(context);
@@ -104,7 +104,7 @@ class _ForgotPasswordEmailScreenState extends State<ForgotPasswordEmailScreen> {
     Navigator.push(
       context,
       MaterialPageRoute(
-        builder: (context) => ForgotPasswordOtpScreen(),
+        builder: (context) => const ForgotPasswordOtpScreen(),
       ),
     );
   }

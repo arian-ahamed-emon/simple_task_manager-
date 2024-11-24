@@ -13,9 +13,7 @@ class ResetPasswordScreen extends StatefulWidget {
 class _ResetPasswordScreenState extends State<ResetPasswordScreen> {
   @override
   Widget build(BuildContext context) {
-    TextTheme textTheme = Theme
-        .of(context)
-        .textTheme;
+    TextTheme textTheme = Theme.of(context).textTheme;
 
     return Scaffold(
       body: SingleChildScrollView(

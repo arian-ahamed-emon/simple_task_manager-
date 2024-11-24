@@ -103,7 +103,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
         children: [
           TextSpan(
             text: "Sign in",
-            style: TextStyle(color: AppColors.themecolor),
+            style: const TextStyle(color: AppColors.themecolor),
             recognizer: TapGestureRecognizer()
               ..onTap = () {
                 Navigator.pop(context);

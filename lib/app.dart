@@ -19,6 +19,7 @@ class _TaskManagerState extends State<TaskManager> {
           inputDecorationTheme: _inputDecorationTheme(),
           elevatedButtonTheme: _elevatedButtonThemeData()),
       home: const SplashScreen(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
@@ -28,7 +29,7 @@ ElevatedButtonThemeData _elevatedButtonThemeData() {
     style: ElevatedButton.styleFrom(
         backgroundColor: AppColors.themecolor,
         foregroundColor: Colors.white,
-        padding: EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+        padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
         fixedSize: const Size.fromWidth(double.maxFinite),
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8))),
   );
