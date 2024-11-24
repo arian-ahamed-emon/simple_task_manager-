@@ -29,7 +29,7 @@ ElevatedButtonThemeData _elevatedButtonThemeData() {
     style: ElevatedButton.styleFrom(
         backgroundColor: AppColors.themecolor,
         foregroundColor: Colors.white,
-        padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+        padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 13),
         fixedSize: const Size.fromWidth(double.maxFinite),
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8))),
   );
